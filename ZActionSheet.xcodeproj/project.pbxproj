@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1DB3B51D0EB46400EBE024 /* ZActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DB3AE1D0EB46400EBE024 /* ZActionSheet.m */; };
+		2C1DB3B61D0EB46400EBE024 /* ZActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DB3B01D0EB46400EBE024 /* ZActionSheetCell.m */; };
+		2C1DB3B71D0EB46400EBE024 /* ZActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DB3B21D0EB46400EBE024 /* ZActionSheetConfig.m */; };
+		2C1DB3B81D0EB46400EBE024 /* ZActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DB3B41D0EB46400EBE024 /* ZActionSheetItem.m */; };
 		2C49C8981D0E9FDA00390B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C8971D0E9FDA00390B91 /* main.m */; };
 		2C49C89B1D0E9FDA00390B91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C89A1D0E9FDA00390B91 /* AppDelegate.m */; };
 		2C49C89E1D0E9FDA00390B91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C89D1D0E9FDA00390B91 /* ViewController.m */; };
 		2C49C8A11D0E9FDA00390B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C49C89F1D0E9FDA00390B91 /* Main.storyboard */; };
 		2C49C8A31D0E9FDA00390B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C49C8A21D0E9FDA00390B91 /* Assets.xcassets */; };
 		2C49C8A61D0E9FDA00390B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C49C8A41D0E9FDA00390B91 /* LaunchScreen.storyboard */; };
-		2C49C8AF1D0EA00D00390B91 /* ZActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C8AE1D0EA00D00390B91 /* ZActionSheet.m */; };
-		2C49C8B21D0EA06400390B91 /* ZActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C8B11D0EA06400390B91 /* ZActionSheetItem.m */; };
-		2C49C8B51D0EA2F300390B91 /* ZActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C8B41D0EA2F300390B91 /* ZActionSheetConfig.m */; };
-		2C49C8B91D0EA5D900390B91 /* ZActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C8B81D0EA5D900390B91 /* ZActionSheetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1DB3AD1D0EB46400EBE024 /* ZActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheet.h; sourceTree = "<group>"; };
+		2C1DB3AE1D0EB46400EBE024 /* ZActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheet.m; sourceTree = "<group>"; };
+		2C1DB3AF1D0EB46400EBE024 /* ZActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheetCell.h; sourceTree = "<group>"; };
+		2C1DB3B01D0EB46400EBE024 /* ZActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetCell.m; sourceTree = "<group>"; };
+		2C1DB3B11D0EB46400EBE024 /* ZActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheetConfig.h; sourceTree = "<group>"; };
+		2C1DB3B21D0EB46400EBE024 /* ZActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetConfig.m; sourceTree = "<group>"; };
+		2C1DB3B31D0EB46400EBE024 /* ZActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheetItem.h; sourceTree = "<group>"; };
+		2C1DB3B41D0EB46400EBE024 /* ZActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetItem.m; sourceTree = "<group>"; };
 		2C49C8931D0E9FDA00390B91 /* ZActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C49C8971D0E9FDA00390B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C49C8991D0E9FDA00390B91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,14 +38,6 @@
 		2C49C8A21D0E9FDA00390B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C49C8A51D0E9FDA00390B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C49C8A71D0E9FDA00390B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C49C8AD1D0EA00D00390B91 /* ZActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheet.h; sourceTree = "<group>"; };
-		2C49C8AE1D0EA00D00390B91 /* ZActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheet.m; sourceTree = "<group>"; };
-		2C49C8B01D0EA06400390B91 /* ZActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheetItem.h; sourceTree = "<group>"; };
-		2C49C8B11D0EA06400390B91 /* ZActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetItem.m; sourceTree = "<group>"; };
-		2C49C8B41D0EA2F300390B91 /* ZActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetConfig.m; sourceTree = "<group>"; };
-		2C49C8B61D0EA30800390B91 /* ZActionSheetConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZActionSheetConfig.h; sourceTree = "<group>"; };
-		2C49C8B71D0EA5D900390B91 /* ZActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZActionSheetCell.h; sourceTree = "<group>"; };
-		2C49C8B81D0EA5D900390B91 /* ZActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZActionSheetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1DB3AC1D0EB46400EBE024 /* CustomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2C1DB3AD1D0EB46400EBE024 /* ZActionSheet.h */,
+				2C1DB3AE1D0EB46400EBE024 /* ZActionSheet.m */,
+				2C1DB3AF1D0EB46400EBE024 /* ZActionSheetCell.h */,
+				2C1DB3B01D0EB46400EBE024 /* ZActionSheetCell.m */,
+				2C1DB3B11D0EB46400EBE024 /* ZActionSheetConfig.h */,
+				2C1DB3B21D0EB46400EBE024 /* ZActionSheetConfig.m */,
+				2C1DB3B31D0EB46400EBE024 /* ZActionSheetItem.h */,
+				2C1DB3B41D0EB46400EBE024 /* ZActionSheetItem.m */,
+			);
+			path = CustomSheet;
+			sourceTree = "<group>";
+		};
 		2C49C88A1D0E9FDA00390B91 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +85,7 @@
 		2C49C8951D0E9FDA00390B91 /* ZActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				2C1DB3AC1D0EB46400EBE024 /* CustomSheet */,
 				2C49C8991D0E9FDA00390B91 /* AppDelegate.h */,
 				2C49C89A1D0E9FDA00390B91 /* AppDelegate.m */,
 				2C49C89C1D0E9FDA00390B91 /* ViewController.h */,
@@ -79,14 +95,6 @@
 				2C49C8A41D0E9FDA00390B91 /* LaunchScreen.storyboard */,
 				2C49C8A71D0E9FDA00390B91 /* Info.plist */,
 				2C49C8961D0E9FDA00390B91 /* Supporting Files */,
-				2C49C8AD1D0EA00D00390B91 /* ZActionSheet.h */,
-				2C49C8AE1D0EA00D00390B91 /* ZActionSheet.m */,
-				2C49C8B01D0EA06400390B91 /* ZActionSheetItem.h */,
-				2C49C8B11D0EA06400390B91 /* ZActionSheetItem.m */,
-				2C49C8B61D0EA30800390B91 /* ZActionSheetConfig.h */,
-				2C49C8B41D0EA2F300390B91 /* ZActionSheetConfig.m */,
-				2C49C8B71D0EA5D900390B91 /* ZActionSheetCell.h */,
-				2C49C8B81D0EA5D900390B91 /* ZActionSheetCell.m */,
 			);
 			path = ZActionSheet;
 			sourceTree = "<group>";
@@ -171,10 +179,10 @@
 			files = (
 				2C49C89E1D0E9FDA00390B91 /* ViewController.m in Sources */,
 				2C49C89B1D0E9FDA00390B91 /* AppDelegate.m in Sources */,
-				2C49C8B51D0EA2F300390B91 /* ZActionSheetConfig.m in Sources */,
-				2C49C8AF1D0EA00D00390B91 /* ZActionSheet.m in Sources */,
-				2C49C8B91D0EA5D900390B91 /* ZActionSheetCell.m in Sources */,
-				2C49C8B21D0EA06400390B91 /* ZActionSheetItem.m in Sources */,
+				2C1DB3B71D0EB46400EBE024 /* ZActionSheetConfig.m in Sources */,
+				2C1DB3B81D0EB46400EBE024 /* ZActionSheetItem.m in Sources */,
+				2C1DB3B51D0EB46400EBE024 /* ZActionSheet.m in Sources */,
+				2C1DB3B61D0EB46400EBE024 /* ZActionSheetCell.m in Sources */,
 				2C49C8981D0E9FDA00390B91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +332,7 @@
 				2C49C8AC1D0E9FDA00390B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
